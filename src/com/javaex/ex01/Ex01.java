@@ -18,7 +18,8 @@ public class Ex01 {
 		
 		//obj.toString
 		System.out.println(obj.toString()); 
-		System.out.println(obj); // println이 가지고 있는 능력: 주소가 들어오면 toString을 찍게 되어있다. 만약 toString이 없는애가 있으면 에러가 날텐데 모든 것의 부모는 Object라 toString이 있다.
+		System.out.println(obj); // println이 가지고 있는 능력: 주소가 들어오면 toString을 찍게 되어있다. 
+		//만약 toString이 없는애가 있으면 에러가 날텐데 모든 것의 부모는 Object라 toString이 있다.
 		//주소를 넣어주면 알아서 println이 toString을 찾는다. 근데 안만들어놨으면 오류 생김
 		
 		//hashCode()

@@ -2,8 +2,6 @@ package com.javaex.ex05;
 
 import java.util.Objects;
 
-import com.javaex.ex04.Rectangle;
-
 public class Rectangle {
 	
 	//필드
@@ -34,10 +32,10 @@ public class Rectangle {
 		}
 	
 	//메소드-일반
+		int area = width*height;
 		@Override
 		public boolean equals(Object obj) {
 			Rectangle r = (Rectangle)obj;
-			int area = width*height;
 			boolean result;
 			
 			if(this.area == r.area && this.area == r.area) {

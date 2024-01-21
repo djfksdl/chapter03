@@ -17,7 +17,7 @@ public class Ex02 {
 		a= a.concat(b);// a에 합친걸 넣어줌-> 그럼 a값이 바뀜
 		System.out.println(a);
 		
-		a= a.trim();// 공백을 없애줌 벋 중간 공백은 안없애줌 양쪽 끝 공백만 없애줌!
+		a= a.trim();// 공백을 없애줌. 벋 중간 공백은 안없애줌 양쪽 끝 공백만 없애줌!
 		System.out.println(a);
 		
 		a= a.replace("ab", "12456789");// 자릿수 상관없이 앞의 문자가 뒤 문자로 바뀐다

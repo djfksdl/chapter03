@@ -12,14 +12,14 @@ public class Ex03 {
 		System.out.println(sum.toString());
 		
 		Integer v01 = 3; //주소담는애라 문법적으로 말이 안되지만 오류 안남. 박싱
-		System.out.println(v01.toString());//toString()은 값만 있으면 안됨 메소드가 있어야함.박싱됐기 때문에 가능
+		System.out.println(v01.toString());//toString()은 값만 있으면 안됨 메소드가 있어야함.벋 박싱됐기 때문에 가능
 		
 		int v02 = i; //주소라 안담겨야하는데 담긴다. 앞에 자료형을 따라감.- 언박싱
 		System.out.println(v02); // 얘는 언박싱되서 메소드 없어져서 .메소드 기능 없어짐
 		
 		//문자->숫자로 바꾸기 : parseInt
 		/*
-		Integer r01 = 100; - static을 알고있는데 굳이 메모리에 올려서 또 만들필요 없음
+		Integer r01 = 100; // static을 배웠는데 굳이 메모리에 올려서 또 만들필요 없음
 		int result = r01.parseInt("1234567");
 		System.out.println(result + 3);
 		*/
@@ -36,7 +36,7 @@ public class Ex03 {
 		String result02 = String.valueOf(1000);
 		System.out.println(result02 + 2);
 		
-		String result03 = ""+ 999; //문자열+숫자 = 문자열이 됨.. 이걸더 많이 씀 (간단)!!!!
+		String result03 = ""+ 999; //valueOf말고 다른 방법: 문자열+숫자 = 문자열이 됨.. 이걸더 많이 씀 (간단)!!!!
 		
 		System.out.println(999 + 2);
 		System.out.println("999" + 2);
